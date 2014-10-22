@@ -13,3 +13,29 @@
 
 \RequirePackage{microtype}
 
+
+%%%%%%%%%%%%%%%
+% Page layout %
+%%%%%%%%%%%%%%%
+\RequirePackage{geometry}
+\geometry{a4paper, textwidth=370pt, textheight=599pt, left=50pt, marginparsep=20pt, marginparwidth=130pt, footskip=40pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fullwidth environment %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\overhang}
+\setlength{\overhang}{\marginparwidth}
+\addtolength{\overhang}{\marginparsep}
+%
+\newenvironment{fullwidth}
+  {\ifthenelse{\boolean{@twoside}}%
+     {\begin{adjustwidth*}{}{-\overhang}}%
+     {\begin{adjustwidth}{}{-\overhang}}%
+  }%
+  {\ifthenelse{\boolean{@twoside}}%
+    {\end{adjustwidth*}}%
+    {\end{adjustwidth}}%
+  }
+
