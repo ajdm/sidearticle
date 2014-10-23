@@ -39,3 +39,16 @@
     {\end{adjustwidth}}%
   }
 
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Headers and footers %
+%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{fancyhdr}%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhf{}%
+{\fancyfoot[LE,RO]{\thepage}}%
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+}%
+
