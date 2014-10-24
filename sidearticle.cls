@@ -40,6 +40,20 @@
   }
 
 
+%%%%%%%%%
+% Fonts %
+%%%%%%%%%
+\renewcommand{\normalsize}{\fontsize{12pt}{15pt}\selectfont}%
+\renewcommand{\footnotesize}{\fontsize{8pt}{10pt}\selectfont}%
+%
+\RequirePackage{fontspec}%
+\RequirePackage{unicode-math}%
+\setmainfont{Minion Pro}%
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}%
+\setsansfont[Scale=MatchLowercase]{Myriad Pro}%
+\setmathfont[Scale=MatchLowercase]{Asana Math}%
+
+
 %%%%%%%%%%%%%%%%%%%%%%%
 % Headers and footers %
 %%%%%%%%%%%%%%%%%%%%%%%
