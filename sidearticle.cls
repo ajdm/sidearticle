@@ -21,6 +21,19 @@
 \geometry{a4paper, textwidth=370pt, textheight=599pt, left=50pt, marginparsep=20pt, marginparwidth=130pt, footskip=40pt}
 
 
+%%%%%%%%%%%%%
+% Maketitle %
+%%%%%%%%%%%%%
+\def\maketitle{%
+\begin{center}
+\par\fontsize{18pt}{16pt}\selectfont\textbf{\@title}%
+\vspace{2em}%
+\par\fontsize{16pt}{14pt}\selectfont{\scshape\@author}%
+\vspace{1em}%
+\par\fontsize{14pt}{12pt}\selectfont{\scshape\@date}%
+\vspace{2em}%
+\end{center}}%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % Fullwidth environment %
