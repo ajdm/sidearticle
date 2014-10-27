@@ -59,9 +59,9 @@
 %%%%%%%%%%%%
 \RequirePackage{titlesec,titletoc}%
 \setcounter{secnumdepth}{0}%
-\titleformat{\section}{\fontsize{14pt}{16pt}\selectfont\bfseries\sffamily}{\thesection}{0.5em}{}%
-\titleformat{\subsection}{\fontsize{14pt}{16pt}\selectfont\itshape\sffamily}{\thesubsection}{0.5em}{}%
-\titleformat{\subsubsection}{\fontsize{12pt}{14pt}\selectfont\sffamily}{\thesubsubsection}{0.5em}{}%
+\titleformat{\section}{\fontsize{14pt}{16pt}\selectfont\bfseries}{\thesection}{0.5em}{}%
+\titleformat{\subsection}{\fontsize{14pt}{16pt}\selectfont\itshape}{\thesubsection}{0.5em}{}%
+\titleformat{\subsubsection}{\fontsize{12pt}{14pt}\selectfont}{\thesubsubsection}{0.5em}{}%
 \titlespacing*{\section}{0pt}{2em}{1em}%
 \titlespacing*{\subsection}{0pt}{1em}{1em}%
 \titlespacing*{\subsubsection}{0pt}{1em}{0em}%
