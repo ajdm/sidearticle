@@ -9,6 +9,7 @@
 \RequirePackage{sidenotes}
 \RequirePackage[maxfloats=45]{morefloats}
 \RequirePackage{marginfix}
+\RequirePackage{siunitx}
 \captionsetup{font=footnotesize, skip=4pt}
 
 \RequirePackage{microtype}
