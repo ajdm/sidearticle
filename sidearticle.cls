@@ -10,6 +10,7 @@
 \RequirePackage[maxfloats=45]{morefloats}
 \RequirePackage{marginfix}
 \RequirePackage{siunitx}
+\RequirePackage{booktabs}
 \captionsetup{font=footnotesize, skip=4pt}
 
 \RequirePackage{microtype}
