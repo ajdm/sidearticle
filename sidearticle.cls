@@ -21,6 +21,7 @@
 %%%%%%%%%%%%%%%
 \RequirePackage{geometry}
 \geometry{a4paper, textwidth=370pt, textheight=599pt, left=50pt, marginparsep=20pt, marginparwidth=130pt, footskip=40pt}
+\frenchspacing
 
 
 %%%%%%%%%%%%%
