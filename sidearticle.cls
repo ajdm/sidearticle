@@ -68,7 +68,11 @@
 \setmainfont{Minion Pro}%
 \setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}%
 \setsansfont[Scale=MatchLowercase]{Myriad Pro}%
-\setmathfont[Scale=MatchLowercase]{Asana Math}%
+\setmathfont[Scale=MatchLowercase]{XITS Math}%
+\setmathfont[range=\mathup/{num,latin,Latin,greek,Greek}]{Minion Pro}%
+\setmathfont[range=\mathbfup/{num,latin,Latin,greek,Greek}]{MinionPro-Bold}% 
+\setmathfont[range=\mathit/{num,latin,Latin,greek,Greek}]{MinionPro-It}%
+\setmathfont[range=\mathbfit/{num,latin,Latin,greek,Greek}]{MinionPro-BoldIt}%
 
 
 %%%%%%%%%%%%
