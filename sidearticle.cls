@@ -100,3 +100,10 @@
   \fancyhf{}%
 }%
 
+
+%%%%%%%%%%%%%%%%%%%%
+% Cross-references %
+%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{prettyref}
+\newrefformat{tab}{Table \ref{#1}}
+\newrefformat{fig}{Figure \ref{#1}}
