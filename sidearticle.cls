@@ -66,7 +66,7 @@
 %%%%%%%%%
 % Fonts %
 %%%%%%%%%
-\renewcommand{\normalsize}{\fontsize{12pt}{15pt}\selectfont}%
+\renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}%
 \renewcommand{\footnotesize}{\fontsize{8pt}{10pt}\selectfont}%
 %
 \RequirePackage{fontspec}%
@@ -86,9 +86,9 @@
 %%%%%%%%%%%%
 \RequirePackage{titlesec,titletoc}%
 \setcounter{secnumdepth}{0}%
-\titleformat{\section}{\fontsize{14pt}{16pt}\selectfont\bfseries}{\thesection}{0.5em}{}%
-\titleformat{\subsection}{\fontsize{14pt}{16pt}\selectfont\itshape}{\thesubsection}{0.5em}{}%
-\titleformat{\subsubsection}{\fontsize{12pt}{14pt}\selectfont}{\thesubsubsection}{0.5em}{}%
+\titleformat{\section}{\fontsize{12pt}{15pt}\selectfont\bfseries}{\thesection}{0.5em}{}%
+\titleformat{\subsection}{\fontsize{12pt}{15pt}\selectfont\itshape}{\thesubsection}{0.5em}{}%
+\titleformat{\subsubsection}{\fontsize{10pt}{13pt}\selectfont}{\thesubsubsection}{0.5em}{}%
 \titlespacing*{\section}{0pt}{2em}{1em}%
 \titlespacing*{\subsection}{0pt}{1em}{1em}%
 \titlespacing*{\subsubsection}{0pt}{1em}{0em}%
