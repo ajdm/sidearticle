@@ -107,6 +107,18 @@
 }%
 
 
+%%%%%%%%%%%%%%%
+% Page styles %
+%%%%%%%%%%%%%%%
+\RequirePackage{ragged2e}%
+\newcommand{\marginparstyle}{\footnotesize\RaggedRight}%
+\long\def\@ympar#1{%
+  \@savemarbox\@marbox{\marginparstyle#1}%
+  \global\setbox\@currbox\copy\@marbox%
+  \@xympar}%
+\renewcommand*{\marginfont}{\marginparstyle}%
+
+
 %%%%%%%%%%%%%%%%%%%%
 % Cross-references %
 %%%%%%%%%%%%%%%%%%%%
