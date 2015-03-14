@@ -31,7 +31,7 @@
   \begin{center}
   \par\fontsize{18pt}{16pt}\selectfont\textbf{\@title}%
   \vspace{1em}%
-  \par\fontsize{16pt}{14pt}\selectfont{\scshape\@author}%
+  \par\fontsize{14pt}{12pt}\selectfont{\scshape\@author}%
   \vspace{1em}%
   \par\fontsize{14pt}{12pt}\selectfont{\scshape\@date}%
   \vspace{2em}%
