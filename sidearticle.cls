@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesFile{sidearticle.cls}[2014/10/21 v0.1 Side Article]
+\ProvidesFile{sidearticle.cls}[2015/03/14 v0.2 Side Article]
 
 %%%%%%%%%%%%
 % Packages %
