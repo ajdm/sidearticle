@@ -125,3 +125,4 @@
 \RequirePackage{prettyref}
 \newrefformat{tab}{Table \ref{#1}}
 \newrefformat{fig}{Figure \ref{#1}}
+\newrefformat{eqn}{Equation \ref{#1}}
