@@ -61,7 +61,6 @@
 % Side notes %
 %%%%%%%%%%%%%%
 \newcommand{\sidepar}{   }
-\RequirePackage{biblatex}
 \RequirePackage{twoopt}
 \newcommandtwoopt{\sidecite}[3][][]{\cite{#3}\marginpar{\textsuperscript{\cite{#3}} \fullcite[#1][#2]{#3}}}
 
